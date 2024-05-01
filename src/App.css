@@ -1,0 +1,43 @@
+body {
+  margin: 20px; /* Ajusta el tamaño del margen según tus necesidades */
+}
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 40px); /* Ancho del 100% menos el doble del margen */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f2f2f2; /* Color de fondo del navbar */
+  padding: 10px; /* Espaciado interior del contenedor */
+}
+
+.logo img {
+  max-width: 100px; /* Ajusta el tamaño según tu diseño */
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-list li {
+  margin-right: 20px; /* Espaciado entre elementos */
+}
+
+.navbar-list li:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold; /* Opcional: para resaltar los enlaces */
+}
+
+.logo {
+  margin-right: auto; /* Empuja el logo hacia la izquierda */
+}
